@@ -9,6 +9,9 @@
 import withPWA from "@ducanh2912/next-pwa";
 
 const nextConfig = withPWA({
+    image: {
+        domains: ['https://github.githubassets.com'],
+    },
   dest: 'public',
   cacheOnFrontEndNav: true,
   aggressiveFrontEndNavCaching: true,
