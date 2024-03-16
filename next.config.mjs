@@ -1,17 +1,9 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//     // pwa: {
-//     //     manifest: './public/manifest.json'
-//     //   }
-// };
 
-// export default nextConfig;
 import withPWA from "@ducanh2912/next-pwa";
-
-const nextConfig = withPWA({
-    image: {
-        domains: ['https://github.githubassets.com'],
-    },
+/**
+ * @type {import('next').NextConfig}
+ */
+export const nextConfig =  withPWA({
   dest: 'public',
   cacheOnFrontEndNav: true,
   aggressiveFrontEndNavCaching: true,
@@ -21,6 +13,8 @@ const nextConfig = withPWA({
   workboxOptions: {
     disableDevLogs: true,
   }
-});
+}
+);
 
-export default nextConfig;
+// export default nextConfig;
+// module.exports = nextConfig;
