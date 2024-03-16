@@ -7,6 +7,9 @@
     "name": "Wonder whisper",
     "short_name": "WW",
     "icons": {
-        "name": "Wonder whisper (1).gif"
-    }
+        
+        "src": "/favicon.ico",
+        "sizes": "any",
+        "type": "image/x-icon"
+      }
 }
