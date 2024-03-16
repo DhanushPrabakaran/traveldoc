@@ -1,0 +1,12 @@
+{
+    "theme_color": "#f69435",
+    "background_color": "#f69435",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Wonder whisper",
+    "short_name": "WW",
+    "icons": {
+        "name": "Wonder whisper (1).gif"
+    }
+}
