@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "@ducanh2912/next-pwa": "^10.2.5",
+    "@radix-ui/react-slot": "^1.0.2",
     "@react-three/drei": "^9.102.5",
     "@react-three/fiber": "^8.15.19",
+    "@tsparticles/engine": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.3.0",
     "@types/three": "^0.162.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -21,7 +25,7 @@
     "next-auth": "^5.0.0-beta.15",
     "react": "^18",
     "react-dom": "^18",
-    "tailwind-merge": "^2.2.1",
+    "tailwind-merge": "^2.2.2",
     "tailwindcss-animate": "^1.0.7",
     "three": "^0.162.0",
     "three-globe": "^2.31.0"
