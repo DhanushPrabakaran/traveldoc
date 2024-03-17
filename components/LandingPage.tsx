@@ -11,7 +11,7 @@ const LandingPage = () => {
           className="  rounded-xl w-full h-full object-center object-cover lg:rounded-r-3xl  hover:object-top opacity-40 "
         />
         <div className="absolute ">
-          <h1 className="text-4xl max-md:text-2xl text-lime-100 font-extrabold mb-2">
+          <h1 className="text-4xl max-md:text-3xl text-lime-100 font-extrabold mb-2">
             Hey, <br />
             Where you off to Next ?
           </h1>
