@@ -3,6 +3,7 @@ import { Inter ,Abril_Fatface,Alegreya_Sans } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
+// import Header from '@/components/Header';
 const AbrilFatface = Abril_Fatface({
   subsets: ["latin"],
   weight: '400'
@@ -33,7 +34,7 @@ export default function RootLayout({
       <Head>
     <link rel="manifest" href="/manifest.json" />
   </Head>
-
+  {/* <Header/> */}
       <body className={`${inter.className}   ${AlegreyaSans.className} ${AbrilFatface.className}no-scrollbar overflow-y-scroll`}>{children}</body>
     </html>
   );
