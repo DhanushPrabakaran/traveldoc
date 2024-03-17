@@ -9,7 +9,7 @@ const AbrilFatface = Abril_Fatface({
 });
 const AlegreyaSans = Alegreya_Sans({
   subsets: ["latin"],
-  weight: '400'
+  weight: ['400','500','300','900','800','700']
 });
 
 
@@ -34,7 +34,7 @@ export default function RootLayout({
     <link rel="manifest" href="/manifest.json" />
   </Head>
 
-      <body className={`${inter.className}  ${AbrilFatface.className} ${AlegreyaSans.className}no-scrollbar overflow-y-scroll`}>{children}</body>
+      <body className={`${inter.className}   ${AlegreyaSans.className} ${AbrilFatface.className}no-scrollbar overflow-y-scroll`}>{children}</body>
     </html>
   );
 }
