@@ -4,11 +4,7 @@ import Sea from "@/public/Sea.jpg";
 import Button from "./ui/Button";
 const LandingPage = () => {
   return (
-<<<<<<< HEAD
     <div className="flex flex-col lg:flex-row w-full max-md:h-full h-screen  bg-lime-200">
-=======
-    <div className="flex flex-col lg:flex-row w-full max-md:h-full h-screen bg-lime-200">
->>>>>>> 1158935d29cd0612a8b49f72aec134b459f2d8f9
       <div className="bg-black rounded-xl h-full lg:w-1/2 m-2 lg:m-0 lg:rounded-l-none max-md:mx-2 lg:rounded-r-3xl relative flex flex-col justify-center align-middle items-center">
         <Image
           src={Sea}
@@ -32,15 +28,9 @@ const LandingPage = () => {
       <div className="flex flex-col justify-center align-middle items-center text-center lg:w-1/2">
         <h1 className=" m-2 text-5xl font-bold">Hello there</h1>
         <h2 className="m-2">What are you looking for ?</h2>
-<<<<<<< HEAD
         <Button text={"Get Started"}>
           
           </Button>
-=======
-        <button className="bg-white  m-1 p-3 px-6 rounded-3xl text-nowrap text-emerald-600 font-extrabold uppercase hover:bg-lime-200">
-          Get Started
-        </button>
->>>>>>> 1158935d29cd0612a8b49f72aec134b459f2d8f9
       </div>
     </div>
   );
