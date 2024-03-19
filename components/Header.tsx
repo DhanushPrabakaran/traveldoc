@@ -7,9 +7,8 @@ const Header = () => {
         Wonder Wisper
       </h1>
       <div className="  flex flex-row mr-1">
-        <Button text={"Sign-up / Login"}>
-          
-        </Button>
+        <Button text={"Sign-up"}></Button>
+        <Button text={"Login"}></Button>
       </div>
     </div>
   );

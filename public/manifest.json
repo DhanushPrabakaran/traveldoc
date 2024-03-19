@@ -1,33 +1,32 @@
 {
-  "theme_color": "#F1F6DA",
-  "background_color": "#F1F6DA",
-  "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
-  "name": "Wonder Whisper",
-  "description": "cool app",
-  "short_name": "WW",
-  "icons": [
-      {
-          "src": "/icon-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png",
-          "purpose": "maskable"
-      },
-      {
-          "src": "/icon-256x256.png",
-          "sizes": "256x256",
-          "type": "image/png"
-      },
-      {
-          "src": "/icon-384x384.png",
-          "sizes": "384x384",
-          "type": "image/png"
-      },
-      {
-          "src": "/icon-512x512.png",
-          "sizes": "512x512",
-          "type": "image/png"
-      }
-  ]
+    "theme_color": "#C1FF72",
+    "background_color": "#C1FF72",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Travel Documentary",
+    "description": "cool app",
+    "short_name": "TravelDoc",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
 }
