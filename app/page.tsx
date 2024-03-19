@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import LandingPage from "@/components/LandingPage";
+import Sea from "@/public/Sea.jpg";
 export default function Home() {
   return (
-    <div className="  bg-lime-200 w-full h-screen text-emerald-800 relative">
+    <div className="text-emerald-800 bg-lime-200 relative ">
       <Header />
-      <LandingPage/>
+      <LandingPage/>      
     </div>
   );
 }

@@ -35,7 +35,7 @@ export default function RootLayout({
     <link rel="manifest" href="/manifest.json" />
   </Head>
   {/* <Header/> */}
-      <body className={`${inter.className}   ${AlegreyaSans.className} ${AbrilFatface.className}no-scrollbar overflow-y-scroll`}>{children}</body>
+      <body className={`${inter.className}   ${AlegreyaSans.className} ${AbrilFatface.className}no-scrollbar bg-lime-200 overflow-y-scroll`}>{children}</body>
     </html>
   );
 }
