@@ -1,7 +1,8 @@
+"use client"
 import Image from "next/image";
 import Button from "./ui/Button";
 import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
+
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
         >
           Login
         </Link>
-        <Separator orientation="vertical" />
+        
         <Link
           href={"/"}
           className="text-base  font-bold px-2 py-1  rounded bg-gray-900 border border-gray-700 bg-opacity-40 mr-4"
