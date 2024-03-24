@@ -4,27 +4,24 @@ import Link from "next/link";
 
 const LandingPage = () => {
   return (
-    
-    <div className="w-full  h-screen text-white bg-gray-950 " >
-     
-      <div
-      className=" w-full  h-16 text-center flex flex-row justify-between  items-center border-b border-gray-400 ">
-        <div className="text-base md:text-lg lg:text-xl xl:text-2xl font-extrabold ml-6">Wonder Wisper</div>
-
-        {/* <div
-        className="lg:flex flex-row hidden">
-        <Link  className="text-sm md:text-base lg:text-lg xl:text-xl font-bold px-2 py-1  m-1 rounded bg-gray-600 bg-opacity-40  " href={""}>login</Link>
-        
-        </div> */}
-        <div
-        className="flex flex-row ">
-        <Link href={"/"} className="text-sm  font-bold px-2 py-1  rounded bg-gray-600 bg-opacity-40 mr-4">Login</Link>
-        <Link href={"/"} className="text-sm  font-bold px-2 py-1  rounded bg-gray-600 bg-opacity-40 mr-4">signup</Link>
+    <div className="w-full  h-screen text-white bg-gray-950 flex flex-col items-center justify-center align-middle ">
+      <div className="flex flex-col justify-center align-middle items-center max-w-5xl">
+        <button className="text-lg bg-gray-600 text-slate-300 w-fit px-3 rounded-full bg-opacity-75  text-center m-1 ">
+          Follow along on Twitter
+        </button>
+        <div className="text-5xl text-center max-md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-400 m-1">
+          An example app built using Next.js 13 server components.
         </div>
-        
-        
+        <div
+        className="text-lg md:text-xl lg:text-2xl text-slate-700 text-center max-w-2xl m-1">
+        I{"'"}m building a web app with Next.js 13 and open sourcing everything. Follow along as we figure this out together.
+        </div>
+        <div
+        className="flex flex-row m-1 p-2 justify-center items-center align-middle ">
+        <Link href={"/"} className="text-xl  px-2 py-1  rounded bg-gray-400 bg-opacity-40 m-4">Login</Link>
+        <Link href={"/"} className="text-xl px-2 py-1  rounded bg-gray-400 bg-opacity-40 m-4">signup</Link>
+        </div> 
       </div>
-      <div className="text-5xl md:text-4xl lg:text-6xl xl:text-9xl font-extrabold">Full Screen Text</div>
     </div>
   );
 };
