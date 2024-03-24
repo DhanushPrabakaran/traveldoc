@@ -4,7 +4,7 @@ type prop ={
 const Button = ({text}: prop) => {
   return (
     <button 
-    className="bg-white max-sm:text-xs text-sm p-3 m-1 px-6 rounded-3xl text-nowrap text-emerald-600 font-extrabold uppercase hover:bg-lime-200">
+    className=" text-white text-xl max-xl:text-xl ml-5 font-bold py-2 px-4 ">
       {text}
     </button>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Button from "./ui/Button";
-import Sea from "@/public/Sea.jpg";
+
 import bikingicon from "@/public/icon/bikingicon.svg";
 const Addressing = () => {
   return (
@@ -68,8 +68,11 @@ const Addressing = () => {
       className="text-3xl max-md:text-2xl text-lime-800 font-extrabold mb-2 flex flex-row justify-center align-middle gap-2 max-w-sm px-4 rounded-full text-center w-full items-center border-2 border-white p-1">
         <div
         className=" inline-block bg-white rounded-full text-xl p-4">🔍</div>
-         <h1>Dubai, Creek & <br/>
-          Al Seef District.</h1>
+         {/* <h1>Dubai, Creek & <br/>
+          Al Seef District.</h1> */}
+          <div className="text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl">
+  Your text here
+</div>
       </div>
     </div>
   );
