@@ -26,27 +26,40 @@ const LandingPage = () => {
           >
             Get Started
           </Link>
-          {/* <Link href={"/"} className="text-xl px-2 py-1  rounded bg-gray-400 bg-opacity-40 m-4">signup</Link> */}
         </div>
       </div>
 
-      <div className="bg-gray-950 flex-row max-w-6xl flex p-2 rounded-xl justify-evenly items-center align-middle border border-gray-800 my-4 flex-wrap">
+      
+    </div>
+  );
+};
+
+export default LandingPage;
+{
+  /* <div className="text-xs md:text-sm lg:text-base xl:text-lg font-extrabold">Small Text</div>
+<div className="text-base md:text-lg lg:text-xl xl:text-2xl font-extrabold">Normal Text</div>
+<div className="text-xl md:text-xl lg:text-2xl xl:text-3xl font-extrabold">Medium Text</div>
+<div className="text-3xl md:text-2xl lg:text-4xl xl:text-5xl font-extrabold">Large Text</div>
+<div className="text-5xl md:text-4xl lg:text-6xl xl:text-9xl font-extrabold">Full Screen Text</div>
+{/* <div> */
+}
+
+{/* <div className="bg-gray-950  flex-row flex  rounded-xl justify-evenly items-center align-middle border border-gray-800 flex-wrap">
         <div className=" flex flex-row m-2 justify-evenly  items-center align-middle ">
-          
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block w-10 h-10 stroke-current"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              ></path>
-            </svg>
-          
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="inline-block w-10 h-10 stroke-current"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+
           <div>
             <div className=" font-bold text-lg">Downloads</div>
             <div className=" lg:text-4xl max-sm:text-3xl text-lg font-extrabold font-sans">
@@ -64,21 +77,20 @@ const LandingPage = () => {
             </div>
             <div className="stat-desc">↗︎ 400 (22%)</div>
           </div>
-          
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block w-10 h-10 stroke-current"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
-              ></path>
-            </svg>
-          
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="inline-block w-10 h-10 stroke-current"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+            ></path>
+          </svg>
         </div>
 
         <div className=" flex flex-row m-2 justify-evenly  items-center align-middle ">
@@ -89,33 +101,19 @@ const LandingPage = () => {
             </div>
             <div className="stat-desc">↘︎ 90 (14%)</div>
           </div>
-          {/* <div className=" text-secondary"> */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              className="inline-block w-8 h-8 stroke-current"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
-              ></path>
-            </svg>
-          {/* </div> */}
-        </div>
-      </div>
-    </div>
-  );
-};
 
-export default LandingPage;
-{
-  /* <div className="text-xs md:text-sm lg:text-base xl:text-lg font-extrabold">Small Text</div>
-<div className="text-base md:text-lg lg:text-xl xl:text-2xl font-extrabold">Normal Text</div>
-<div className="text-xl md:text-xl lg:text-2xl xl:text-3xl font-extrabold">Medium Text</div>
-<div className="text-3xl md:text-2xl lg:text-4xl xl:text-5xl font-extrabold">Large Text</div>
-<div className="text-5xl md:text-4xl lg:text-6xl xl:text-9xl font-extrabold">Full Screen Text</div>
-{/* <div> */
-}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            className="inline-block w-8 h-8 stroke-current"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+            ></path>
+          </svg>
+        </div>
+      </div> */}
