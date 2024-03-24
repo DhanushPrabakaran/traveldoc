@@ -2,8 +2,9 @@ import type { Metadata, Viewport } from 'next';
 import { Inter ,Abril_Fatface,Alegreya_Sans } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import { auth } from "../auth"
 const inter = Inter({ subsets: ["latin"] });
-// import Header from '@/components/Header';
+
 const AbrilFatface = Abril_Fatface({
   subsets: ["latin"],
   weight: '400'
@@ -24,18 +25,20 @@ export const viewport: Viewport = {
   themeColor: '#3367D6',
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const session = await auth()
   return (
     <html lang="en">
       <Head>
     <link rel="manifest" href="/manifest.json" />
   </Head>
   {/* <Header/> */}
-      <body className={`${inter.className}   ${AlegreyaSans.className} ${AbrilFatface.className}no-scrollbar overflow-y-scroll`}>{children}</body>
+      <body className={`${inter.className}   ${AlegreyaSans.className} ${AbrilFatface.className}no-scrollbar overflow-y-scroll`}>{children}
+      <p>Welcome {session?.user?.name}!</p></body>
     </html>
   );
 }
