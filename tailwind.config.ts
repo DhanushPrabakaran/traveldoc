@@ -11,18 +11,13 @@ const config = {
   prefix: "",
   theme: {
     container: {
-      // center: true,
-      // padding: "2rem",
-      // screens: {
-      //   "2xl": "1400px",
-      // },
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
     },
     extend: {
-      backgroundImage:{
-        
-        'hero-pattern': "url('/img/hero-pattern.svg')",
-        'footer-texture': "url('/img/footer-texture.png')",
-      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

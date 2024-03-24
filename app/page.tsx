@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import Addressing from "@/components/Addressing";
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative bg-gray-950">
       <Header/>
       <LandingPage/>
       <Addressing/>

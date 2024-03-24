@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Sea from '@/public/Sea.jpg'
 import Link from "next/link";
+import Addressing from "./Addressing";
 
 const LandingPage = () => {
   return (
-    <div className="w-full  h-screen text-white bg-gray-950 bg-opaciy-40 bg-blend-overlay flex flex-col items-center justify-center align-middle " style={ {backgroundImage:`url(${Sea.src})`,backgroundPosition:"center",objectPosition:"center",backgroundOrigin:"center"}}>
+    <div className="w-full  h-screen text-white bg-gray-950 bg-opaciy-40 bg-blend-overlay flex flex-col items-center justify-center align-middle bg-fixed " style={ {backgroundImage:`url(${Sea.src})`,backgroundPosition:"center",objectPosition:"center",backgroundOrigin:"center"}}>
       <div className="flex flex-col justify-center align-middle items-center max-w-5xl">
-        <button className="text-lg bg-gray-600 text-slate-300 w-fit px-3 rounded-full bg-opacity-75  text-center m-1 ">
-          Follow along on Twitter
+        <button className="text-lg bg-gray-900 border border-gray-700 text-gray-200 w-fit px-3 rounded-full bg-opacity-75  text-center m-1  ">
+          A Travel Documentary 🫧
         </button>
-        <div className="text-5xl text-center max-md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-400 m-1">
+        <div className="text-5xl text-center max-md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-300 m-1">
           An example app built using Next.js 13 server components.
         </div>
         <div
@@ -18,10 +19,11 @@ const LandingPage = () => {
         </div>
         <div
         className="flex flex-row m-1 p-2 justify-center items-center align-middle ">
-        <Link href={"/"} className="text-xl  px-4 py-2  rounded-full bg-gray-400 bg-opacity-40 m-4">Get Started</Link>
+        <Link href={"/"} className="text-xl  px-4 py-2  rounded-full bg-opacity-40 m-4 bg-gray-900 border border-gray-700">Get Started</Link>
         {/* <Link href={"/"} className="text-xl px-2 py-1  rounded bg-gray-400 bg-opacity-40 m-4">signup</Link> */}
         </div> 
       </div>
+      <Addressing/>
     </div>
   );
 };
