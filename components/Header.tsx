@@ -4,7 +4,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <div
-      className=" w-full  h-16 text-center flex flex-row justify-between text-gray-400 items-center border-b border-gray-400 bg-gray-950 ">
+      className=" w-full  h-16 text-center flex flex-row justify-between text-gray-400 items-center border-b border-gray-600 bg-gray-950 ">
         <div className="text-lg md:text-lg lg:text-xl xl:text-2xl   font-extrabold ml-6">Wonder Wisper</div>
         <div
         className="flex flex-row ">
