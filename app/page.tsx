@@ -2,12 +2,17 @@ import LandingPage from "@/components/LandingPage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Addressing from "@/components/Addressing";
+import Sea from "@/public/Sea.jpg"
 export default function Home() {
   return (
-    <div className="relative bg-gray-950">
+    <div className="  h-full  text-white bg-gray-950 bg-opaciy-40 bg-blend-overlay flex flex-col items-center justify-center align-middle bg-fixed " style={ {backgroundImage:`url(${Sea.src})`,backgroundPosition:"center",objectPosition:"center",backgroundOrigin:"center"}}>
       <Header/>
-      <LandingPage/>
+      <LandingPage/
+      >
+      <div
+      className="w-full h-ful p-4">
       <Addressing/>
+      </div>
       <Footer/>    
     </div>
   );
