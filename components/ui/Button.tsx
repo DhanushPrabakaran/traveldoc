@@ -1,12 +1,16 @@
-type prop ={
-    text : string;
-}
-const Button = ({text}: prop) => {
+import Link  from "next/link";
+import React from "react";
+
+const Button = (props: { text: string }) => {
   return (
-    <button 
-    className=" text-white text-xl max-xl:text-xl ml-5 font-bold py-2 px-4 ">
-      {text}
-    </button>
+    
+        <Link
+          href={"/"}
+          className="text-base text-center font-bold px-2 py-1  rounded  bg-opacity-40 mr-4 bg-gray-900 w-full"
+        >
+      {props.text}
+        </Link>
+    
   );
 };
 

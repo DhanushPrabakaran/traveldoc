@@ -7,7 +7,7 @@ import { Separator } from "@radix-ui/react-separator";
 
 const LandingPage = () => {
   return (
-    <div className=" w-full h-screen  text-white bg-transprant bg-blend-overlay flex flex-col items-center justify-center align-middle  ">
+    <div className="w-full   text-white bg-transprant bg-blend-overlay flex flex-col items-center justify-center align-middle">
       <div className="flex flex-col justify-center align-middle items-center max-w-5xl">
         <button className="text-lg bg-gray-900 border border-gray-700 text-gray-200 w-fit px-3 rounded-full bg-opacity-75  text-center m-1  ">
           A Travel Documentary 🫧
