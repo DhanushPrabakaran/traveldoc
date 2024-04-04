@@ -20,7 +20,7 @@ export default function Page() {
     >
       <div className="flex flex-col justify-center align-middle items-center max-w-5xl">
         <div className="text-lg bg-gray-950  border border-gray-700 text-gray-200 w-fit px-3 rounded-full bg-opacity-75  text-center m-1  ">
-          A Travel Documentary 🫧
+          A Travel Documentar 🫧
         </div>
         <div className="text-5xl text-center max-md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-300 m-1">
         <span className=" text-gray-400">Explore</span><span>document</span>  and share your travel journey with ease – all in one place.
