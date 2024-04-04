@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="w-full   text-white bg-transprant bg-blend-overlay flex flex-col items-center justify-center align-middle">
       <div className="flex flex-col justify-center align-middle items-center max-w-5xl">
-        <button className="text-lg bg-gray-900 border border-gray-700 text-gray-200 w-fit px-3 rounded-full bg-opacity-75  text-center m-1  ">
+        <button className="text-lg bg-gray-950 border border-gray-700 text-gray-200 w-fit px-3 rounded-full bg-opacity-75  text-center m-1  ">
           A Travel Documentary 🫧
         </button>
         <div className="text-5xl text-center max-md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-gray-300 m-1">
@@ -22,7 +22,7 @@ const LandingPage = () => {
         <div className="flex flex-row m-1 p-2 justify-center items-center align-middle ">
           <Link
             href={"/"}
-            className="text-xl  px-4 py-2  rounded-full bg-opacity-40 m-4 bg-gray-900 border border-gray-700"
+            className="text-xl  px-4 py-2  rounded-full bg-opacity-40 m-4 bg-gray-950 border border-gray-700"
           >
             Get Started
           </Link>

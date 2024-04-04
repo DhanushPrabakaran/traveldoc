@@ -6,7 +6,7 @@ const Button = (props: { text: string }) => {
     
         <Link
           href={"/"}
-          className="text-base text-center font-bold px-2 py-1  rounded  bg-opacity-40 mr-4 bg-gray-900 w-full"
+          className="text-base text-center font-bold px-2 py-1  rounded  bg-opacity-40 mr-4 bg-gray-950 w-full"
         >
       {props.text}
         </Link>

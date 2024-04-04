@@ -29,7 +29,7 @@ const SignUpForm: React.FC = () => {
         <button
           type="button"
           onClick={handleGitHubSignIn}
-          className="w-full bg-gray-900 text-white rounded-md px-3 py-2 hover:bg-gray-800"
+          className="w-full bg-gray-950 text-white rounded-md px-3 py-2 hover:bg-gray-800"
         >
           Sign Up with GitHub
         </button>

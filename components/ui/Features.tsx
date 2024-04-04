@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div className="flex shadow-gray-500 shadow-sm  flex-col flex-wrap text-center justify-center align-middle items-center rounded-xl bg-opacity-40  bg-gray-900 border border-gray-700 m-3 max-w-xs">
+    <div className="flex shadow-gray-500 shadow-sm  flex-col flex-wrap text-center justify-center align-middle items-center rounded-xl bg-opacity-40  bg-gray-950 border border-gray-700 m-3 max-w-xs">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="white"
